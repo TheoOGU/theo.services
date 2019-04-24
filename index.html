@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Theo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./lib/main.css">
+	</head>
+	<body>
+	<div class="container-fluid">
+      <div class="navbar navbar-material-light-blue-300">
+            <div class="navbar-header">
+              <a id="left-menu" class="navbar-brand" style="cursor:pointer;"><img style="width:80px;height:auto;" src="./lib/theo-brand.svg"></a>
+            </div>
+            <div class="navbar-collapse collapse navbar-material-light-blue-collapse">
+              <ul class="nav navbar-nav navbar-right">
+              <a id="right-menu" class="navbar-brand" href="javascript:void(0)">Services</a>
+              <a id="right-menu" class="navbar-brand" href="https://discord.gg/ccST8sJ" target="_blank">Discord</a>
+              </ul>
+            </div>
+        </div>
+    </div>
+    
+    	<div><img class="centered" src="./lib/theo-brand.svg"></div>
+		<iframe src="./lib/mp3.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<video playsinline autoplay loop id="vid">
+        <source src="./lib/video.mp4" type="video/mp4"></source>
+        <script>var video = document.currentScript.parentElement;video.volume = 0.333;</script>
+      	</video>
+
+      	<script type="text/javascript"> var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/5cc0866fc1fe2560f3005ed8/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })();document.addEventListener('contextmenu', event => event.preventDefault());document.onkeydown = function(e) { if(event.keyCode == 123) { return false; } if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){ return false; } if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){ return false; } if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)){ return false; } if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){ return false; } }</script>
+	</body>
+</html>
