@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="content" content="Theo's Fitbits. The best, cheapest, and most luxurious Fitbit shop around.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="description" content="Theo's Fitbits. The best, cheapest, and most luxurious Fitbit shop around.">
+    <title>Theo's Fitbits</title>
+    <link rel="stylesheet" href="./lib/main.css">
+    <link rel="stylesheet" href="./lib/pace.css">
+	</head>
+	<body>
+	<div class="container-fluid">
+      <div class="navbar navbar-material-light-blue-300">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-material-light-blue-collapse">
+
+            <a id="right-menu" class="navbar-brand" href="/shop">Services</a>
+            </button>
+              <a id="left-menu" class="navbar-brand navbar-collapse collapse " style="cursor:pointer;"><img style="width:80px;height:auto;" src="./lib/theo-brand.svg"></a>
+            </div>
+            <div class="navbar-collapse collapse navbar-material-light-blue-collapse">
+              <ul class="nav navbar-nav navbar-right">
+              <a id="right-menu" class="navbar-brand" href="/shop">Services</a>
+              <a id="right-menu" class="navbar-brand" href="https://discord.gg/ccST8sJ" target="_blank">Discord</a>
+              </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div><img class="centered" src="./lib/theo-brand.svg"></div>
+		<iframe src="./lib/mp3.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+		<video playsinline autoplay muted loop id="vid">
+      <source src="./lib/video.mp4" type="video/mp4"></source>
+      <script>var video = document.currentScript.parentElement;video.volume = 0.333;</script>
+    </video>
+<script src="./lib/landing.min.js"></script>
+<script src="./lib/pace.min.js"></script>
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    window.location = "/shop"; 
+}
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date(); (function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0]; s1.async=true; s1.src='https://embed.tawk.to/5cc0866fc1fe2560f3005ed8/default'; s1.charset='UTF-8'; s1.setAttribute('crossorigin','*'); s0.parentNode.insertBefore(s1,s0); })();
+</script>
+	</body>
+</html>
